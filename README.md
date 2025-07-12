@@ -51,3 +51,29 @@ After entering data, the program displays a final report:
 ### Compile
 ```bash
 gcc -o billing billing.c
+```
+### Run
+```bash
+./billing
+```
+### File Structure
+```bash
+billing.c               # Source code
+KUDSE243F-011.txt       # Output file with customer usage details
+README.md               # Project documentation
+```
+### Sample Usage
+```
+Enter(1)The Customer Account Number: 1001
+Residential enter R OR r
+Commercial enter C OR c
+Industrial enter I OR i
+
+Enter The Customer Type: R
+Monthly Electricity Usage(in kWh) : 250
+```
+
+## License
+
+This project is licensed under the MIT License. See the [MIT](LICENSE) file for details.
+
